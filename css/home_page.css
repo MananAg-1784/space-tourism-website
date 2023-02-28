@@ -1,0 +1,64 @@
+body{
+    background-image: url('../assets/home/background-home-desktop.jpg');
+    background-size: cover;
+}
+
+
+section{
+    margin: 125px auto;
+    justify-content: space-evenly;
+}
+
+#body{
+    width: min-content;
+}
+
+#explore{
+    border-radius: 50%;
+    /* margin: 20px 50px; */
+    background-color: white;
+    height: 220px;
+    width: 220px;
+    justify-content: center;
+    color: black !important;
+}
+
+#explore-icon{
+    border-radius: 50%;
+    align-self: flex-end;
+    padding: 60px;
+    margin: 0px 20px;
+    position: relative;
+    top: 20px;
+    transition: 0.5s;
+}
+
+#explore-icon:has( #explore:hover ){
+    background-color: rgba(155, 155, 155, 0.482);
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+    body{
+        background-image: url('../assets/home/background-home-tablet.jpg');
+    }
+
+    section{
+        flex-direction: column !important;
+        margin: 0px;
+        margin-top: 100px;
+    }
+
+    #body{
+        align-items: center;
+        text-align: center;
+    }
+
+    #explore-icon{
+        position: static;
+        margin: 50px 0px;
+        align-self: center;
+    }
+
+}

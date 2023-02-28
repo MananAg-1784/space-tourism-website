@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/root_classes.css">
+  <link rel="stylesheet" href="../css/destinations.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="../anchor_link.js"></script>
+  
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body>
+
+  <header>
+    <div id="nav-bar" class="flex row align-center">
+      <div id="logo">
+        <img src="../assets/star-logo.png" alt="">
+      </div>
+
+      <div id="line"></div>
+
+      <div id="nav-menu" class="flex row nav-text">
+        <a href="../index.html">
+          <div id="nav-text">
+            <span>00</span>
+            <span>HOME</span>
+          </div>
+          <span class="hover-border"></span>
+        </a>
+        <a href="destination-moon.html" class="active">
+          <div id="nav-text">
+            <span>01</span>
+            <span>DESTIATION</span>
+          </div>
+          <span class="hover-border"></span>
+        </a>
+        <a href="../crew/crew-commander.html">
+          <div id="nav-text">
+            <span>02</span>
+            <span>CREW</span>
+          </div>
+          <span class="hover-border"></span>
+        </a>
+        <a href="../technology/technology-vehicle.html">
+          <div id="nav-text">
+            <span>03</span>
+            <span>TECHNOLOGY</span>
+          </div>
+          <span class="hover-border"></span>
+        </a> 
+      </div>
+
+    </div>
+  </header>
+
+  <article class="flex column">
+
+    <div id="pick-dest">
+      <span class="heading-5">01</span>
+      <span class="heading-5">PICK YOUR DESTINATION</span>
+    </div>
+
+    <section class="flex row align-items">
+
+      <div class="destination-img flex column">
+          <img src="../assets/destination/image-moon.png" alt="">
+      </div>
+
+      <div class="destination-description flex column">
+
+        <div class="destination-nav flex row">
+          <a href="destination-moon.html" class="nav-text active">
+            <div>
+              MOON
+            </div>
+            <span class="hover-border"></span>
+          </a>
+          <a href="destination-mars.html" class="nav-text">
+            <div>
+              MARS
+            </div>
+            <span class="hover-border"></span>
+          </a>
+          <a href="destination-europa.html" class="nav-text">
+            <div>
+              EUROPA
+            </div>
+            <span class="hover-border"></span>
+          </a>
+          <a href="destination-titan.html" class="nav-text">
+            <div>
+              TITAN
+            </div>
+            <span class="hover-border"></span>
+          </a>
+        </div>
+
+        <div id="planet-name" class="heading-2">
+          MOON
+        </div>
+
+        <div id="planet-description" class="description">
+          See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.
+        </div>
+
+        <div id="planet-info" class="flex row">
+          <div id="distance" class="flex column">
+            <div class="subhead-2">AVG. DISTANCE</div>
+            <div class="subhead-1" >384,400 KM</div>
+          </div>
+          <div id="travel-time" class="flex column">
+            <div class="subhead-2">EST. TRAVEL TIME</div>
+            <div class="subhead-1">3 DAYS</div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+  </article>
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="../css/crew.css">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/root_classes.css">
+  
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body>
+
+  <header>
+    <div id="nav-bar" class="flex row align-center">
+      <div id="logo">
+        <img src="../assets/star-logo.png" alt="">
+      </div>
+
+      <div id="line"></div>
+
+      <div id="nav-menu" class="flex row nav-text">
+        <a href="../index.html">
+          <div id="nav-text">
+            <span>00</span>
+            <span>HOME</span>
+          </div>
+          <span class="hover-border"></span>
+        </a>
+        <a href="../destinations/destination-moon.html">
+          <div id="nav-text">
+            <span>01</span>
+            <span>DESTIATION</span>
+          </div>
+          <span class="hover-border"></span>
+        </a>
+        <a href="crew-commander.html"  class="active">
+          <div id="nav-text">
+            <span>02</span>
+            <span>CREW</span>
+          </div>
+          <span class="hover-border"></span>
+        </a>
+        <a href="../technology/technology-vehicle.html">
+          <div id="nav-text">
+            <span>03</span>
+            <span>TECHNOLOGY</span>
+          </div>
+          <span class="hover-border"></span>
+        </a> 
+      </div>
+
+    </div>
+  </header>
+  
+  <article class="flex row">
+    <section class="flex column">
+      
+        <div id="pick-dest">
+          <span class="heading-5">02</span>
+          <span class="heading-5">MEET YOUR CREW</span>
+        </div>
+      <div id="crew-info" class="flex column">
+        <div class="designation heading-4">Flight Engineer</div>
+        <div class="name heading-3">Anousheh Ansari</div>
+        <div class="description">Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space. </div>
+        
+        <div class="crew-nav flex row">
+          <a href="crew-commander.html" ></a>
+          <a href="crew-specialist.html"></a>
+          <a href="crew-pilot.html"></a>
+          <a href="crew-engineer.html" class="active-crew"></a>
+        </div>
+      </div>
+        
+    </section>
+    <div id="crew-img">
+      <img src="../assets/crew/image-anousheh-ansari.png" alt="">
+    </div>
+  </article>
+
+</body>
+</html>

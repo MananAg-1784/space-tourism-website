@@ -1,0 +1,117 @@
+
+body{
+    background-image: url('../assets/technology/background-technology-desktop.jpg');
+}
+
+section{
+    margin-top: 100px;
+    align-items: center;
+}
+
+
+.tech-nav a{
+    border-radius: 50%;
+    width: 75px;
+    margin: 15px 0;
+    height: 75px;
+    display: flex;
+    /* margin: 30px 0px; */
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(176, 176, 176, 0.527);
+}
+
+.tech-info{
+    width: 500px;
+    margin: 0 50px;
+    padding: 10px 0px;
+}
+
+#tech-img{
+    position: absolute;
+    right: 0px;
+}
+
+.tech-nav a:hover{
+    border: 1px solid white;
+}
+
+.active-tech{
+    background-color: white;
+    color: black;
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 1200px){
+    body{
+        background-size: auto !important;
+    }
+
+    section{
+        margin: 25px 0px;
+        justify-content: space-evenly;
+    }
+
+    .tech-info{
+        margin: 0;
+    }
+
+    #tech-img{
+        position: static;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    body{
+        background-image: url('../assets/technology/background-technology-tablet.jpg');
+    }
+
+    article{
+        align-items: center;
+        text-align: center;
+        margin: 40px 0px;
+    }
+
+    section{
+        flex-direction: column !important;
+        margin: 50px 0px;
+    }
+
+    #tech-img{
+        position: static;
+        background-size: cover;
+    }
+
+    .tech-nav{
+        flex-direction: row;
+        margin: 50px 0px;
+    }
+    .tech-nav a{
+        width: 60px;
+        height: 60px;
+        margin: 0px 15px;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+    #tech-img{
+        width: 100vw;
+        height: 300px;
+    }
+
+    .img-1{
+        background-image: url('../assets/technology/image-launch-vehicle-landscape.jpg');
+    }
+    .img-2{
+        background-image: url('../assets/technology/image-spaceport-landscape.jpg');
+    }
+    .img-3{
+        background-image: url('../assets/technology/image-space-capsule-landscape.jpg');
+    }
+
+    #tech-img img{
+        visibility: hidden;
+    }
+
+}
