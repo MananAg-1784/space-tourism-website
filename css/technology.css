@@ -41,7 +41,7 @@ section{
     color: black;
 }
 
-@media only screen and (max-width: 1400px) and (min-width: 1200px){
+@media only screen and (max-width: 1400px) and (min-width: 1000px){
     body{
         background-size: auto !important;
     }
@@ -60,7 +60,23 @@ section{
     }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) and (min-width: 1000px){
+    #tech-img img{
+        height: 400px;
+    }
+
+    .tech-info{
+        width: 470px;
+    }
+
+    .tech-nav a{
+        height: 65px;
+        width: 65px;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
     body{
         background-image: url('../assets/technology/background-technology-tablet.jpg');
     }
@@ -76,11 +92,6 @@ section{
         margin: 50px 0px;
     }
 
-    #tech-img{
-        position: static;
-        background-size: cover;
-    }
-
     .tech-nav{
         flex-direction: row;
         margin: 50px 0px;
@@ -91,11 +102,9 @@ section{
         margin: 0px 15px;
     }
 
-}
-
-@media only screen and (max-width: 1000px) {
-
     #tech-img{
+        position: static;
+        background-size: cover;
         width: 100vw;
         height: 300px;
     }
