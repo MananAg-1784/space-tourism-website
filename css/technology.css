@@ -109,6 +109,10 @@ section{
         height: 300px;
     }
 
+    .tech-info{
+        margin: 0px;
+    }
+
     .img-1{
         background-image: url('../assets/technology/image-launch-vehicle-landscape.jpg');
     }
