@@ -119,3 +119,9 @@ section, #pick-dest{
         font-size: 3rem !important;
     }
 }
+
+@media only screen and (max-width: 400px){
+    .heading-1{
+        font-size: 7rem !important;
+    }
+}
