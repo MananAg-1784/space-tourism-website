@@ -81,6 +81,10 @@ section{
         background-image: url('../assets/technology/background-technology-tablet.jpg');
     }
 
+    #pick-dest{
+        margin: 0px !important;
+    }
+
     article{
         align-items: center;
         text-align: center;
@@ -128,3 +132,14 @@ section{
     }
 
 }
+
+@media only screen and (max-width: 550px){
+    .tech-info{
+        width:fit-content;
+    }
+
+    .description{
+        padding: 0px 30px;
+    }
+}
+

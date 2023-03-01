@@ -102,3 +102,10 @@ section{
     }
 
 }
+
+@media only screen and (max-width: 550px){
+    .description{
+        width: fit-content;
+        padding: 0px 30px;
+    }
+}
