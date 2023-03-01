@@ -81,7 +81,7 @@ section{
 
     .destination-img img{
         height: 75%;
-        margin-bottom: 40px;
+        margin-bottom: 40px !important;
     }
 
     .destination-description{
@@ -96,5 +96,27 @@ section{
 
     #planet-info > div{
         margin: 25px !important;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .description{
+        padding: 0px 30px;
+    }
+
+    .destination-img img{
+        width: 80%;
+        margin: 0px auto;
+    }
+
+    #planet-info{
+        flex-direction: column;
+    }
+    #planet-info div{
+        align-items: center;
+        margin: 0px !important;
+    }
+    #planet-info > div{
+        margin: 10px 0px !important;
     }
 }

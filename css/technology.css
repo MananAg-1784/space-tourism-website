@@ -129,6 +129,7 @@ section{
 
     #tech-img img{
         visibility: hidden;
+        height: 10px;
     }
 
 }
@@ -140,6 +141,15 @@ section{
 
     .description{
         padding: 0px 30px;
+    }
+
+    #tech-img{
+        background-position: center;
+        height: 200px;
+    }
+
+    #tech-name{
+        padding: 20px !important;
     }
 }
 
