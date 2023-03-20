@@ -13,8 +13,7 @@ $(document).ready( function(){
         $('#nav-menu').toggle('slide');
         img_1.css('display','inline');
         img_2.css('display','none');
-    });
-
+    })
 });
 
 
